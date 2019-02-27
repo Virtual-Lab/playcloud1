@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cloudspeaker-Example1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" media="all">
+    <script type="text/javascript" src="js/nexusUI.js"></script>
+
+    <!-- Script für html5 für ältere Browser -->
+    
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->    
+
+</head>
+<body>
+
+<header id='header'><h3>Cloudspeakers demo playtones</h3></header>
+<div id="wrap"> <!-- container für webseite -->
+
+
+    <div id="control">
+        
+        
+        <!-- Layout all of the UI Elements as Canvas Objects. -->
+        <span class="label1">speaker1</span>
+        <span class="label1">speaker2</span>
+        <span class="label1">speaker3</span>
+        <span class="label1">speaker4</span>
+        <br />
+        <span class="label2">trigger</span>
+        <br />
+        <canvas nx="button" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="button" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="button" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="button" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <br />
+        <span class="label2">volume</span>
+        <br />
+        
+        <canvas nx="slider" style="width: 40px; height:200px; padding: 2px 22px;"></canvas>
+        <canvas nx="slider" style="width: 40px; height:200px; padding: 2px 22px;"></canvas>
+        <canvas nx="slider" style="width: 40px; height:200px; padding: 2px 22px;"></canvas>
+        <canvas nx="slider" style="width: 40px; height:200px; padding: 2px 22px;"></canvas>
+        <br />
+         <span class="label2">reverb</span>
+        <br />
+
+        <canvas nx="dial" min="80" max="800" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="dial" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="dial" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <canvas nx="dial" style="width: 80px; height:80px; padding: 2px"></canvas>
+        <br />
+
+    </div>
+    <div id="response">  
+
+        <div id ="received">
+            <span id="setx"></span>
+            <span id="sety"></span>
+            <span id="setz"></span>
+        </div>
+    
+        
+    </div> 
+
+</div>
+
+<script src="/rhizome/rhizome.js"></script>
+<script src="js/vendor/jquery-2.1.0.min.js"></script>
+
+<!-- uncomment lines below to include extra p5 or javascript libraries -->
+
+<script src="js/osc1.js"></script>
+<script src="js/sketch.js"></script>
+
+
+</body>
+</html>
