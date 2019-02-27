@@ -19,11 +19,13 @@ How to start the rhizome application:
 it is the best opportunity to install it with nvm: https://github.com/creationix/nvm
 - install nvm with terminal
 <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
+
 or Wget:
 
 <code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
-then install node 6 and use it:
+- install node 6 and use it:
+
 <code>nvm install 6<br/>
 	nvm use 6</code>
 	
