@@ -1,7 +1,8 @@
 # playcloud1
 
 This is a framework and template for play and interact with cloudspeakers (cloudspeaker.zhdk.ch) over a webapplication
-The webapplication (in the folder pages) is controlling sounds from supercollider
+The webapplication (in the folder pages) is controlling sounds from
+[SuperCollider](https://supercollider.github.io/)
 
 Instructions
 --------------
@@ -11,6 +12,7 @@ Instructions
 - load the supercollider patch (cloud1.scd) in the supercolider IDE
 - look up ip adresses of the cloudspeaker and modify the ~ip variable in supercollider
 - start the rhizome server (it needs nodejs Version 6, see intructions below)
+- boot the server in supercollider IDE and Evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-<RETURN>)
 - connect to the webpage (running on http://localhost:8000 or http://ip-adress-of -your-computer:8000) with a mobile phone, tablet or computer in the same network
 - also works over internet, if the server is running the framework and the ports which are configurated the config.js are open
 
