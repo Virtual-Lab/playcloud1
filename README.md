@@ -1,16 +1,18 @@
 # playcloud1
 
 This is a framework and template for play and interact with cloudspeakers (cloudspeaker.zhdk.ch) over a webapplication
-The webpplaication (in the folder pages) is controlling sounds from supercollider
+The webapplication (in the folder pages) is controlling sounds from supercollider
 
 Instructions
 --------------
 
+- install cloudspeaker and maincumpter (which is running supercollider and the rhzome server)
+- connect them to a local network (best with lan, also works with wlan)
 - load the supercollider patch (cloud1.scd) in the supercolider IDE
+- look up ip adresses of the cloudspeaker and modify the ~ip variable in supercollider
 - start the rhizome server (it needs nodejs Version 6, see intructions below)
-
-
-
+- connect to the webpage (running on http://localhost:8000 or http://ip-adress-of -your-computer:8000) with a mobile phone, tablet or computer in the same network
+- also works over internet, if the server is running the framework and the ports which are configurated the config.js are open
 
 
 How to start the rhizome application:
@@ -42,6 +44,7 @@ There is a configuration file called config.js. You can now start the server by 
 There is also a template for controlling messages in Supercollider with a Gui and/or Midi:
 simpleCtrl.scd
 	
+------
 
 In the Test-Folder there are template files for SuperCollider and Pure Data
 It shows simple message sending / receiving with different clients for **rhizome** :
@@ -51,9 +54,8 @@ It shows simple message sending / receiving with different clients for **rhizome
 - Pure Data (communication over OSC)
 
 
-
 Then, open either of the clients and try sending messages. Other clients that have subscribed to the right address should receive these messages.
 
 To open the web page (websocket client), just go to [http://localhost:8000/index.html](http://localhost:8000/index.html).
 
-All the code for the web page is in [pages/index.html](https://github.com/sebpiq/rhizome/blob/master/examples/base/pages/index.html) once you got the example working, you can just modify the html/javascript there to fit your needs.
+All the code for the web page is in [pages/index.html](https://github.com/sebpiq/rhizome/blob/master/examples/base/pages/index.html) 
