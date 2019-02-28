@@ -13,14 +13,14 @@ Instructions
 - look up ip-adresses of the cloudspeaker and modify the ~ip variable in supercollider
 - start the rhizome server (it needs nodejs Version 6, see intructions below)
 - boot the server in supercollider IDE and evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-<RETURN>)
-- connect to the webpage (running on http://localhost:8000 or http://ip-adress-of -your-computer:8000) with a mobile phone, tablet or computer in the same network
+- connect to the webpage (running on http://localhost:8000 or http://ip-adress-of-your-computer:8000) with a mobile phone, tablet or computer in the same network
 - also works over internet, if the server is running the framework and the ports which are configurated the config.js are open
 
 
 How to start the rhizome application:
 
 1. install node.js and npm (It needs node Version 6) 
-it is the best opportunity to install it with nvm: https://github.com/creationix/nvm
+it is the best opportunity to install it with nvm:<br /> https://github.com/creationix/nvm
 - install nvm with terminal
 <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
