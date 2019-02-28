@@ -21,7 +21,7 @@ How to start the rhizome application:
 
 1. install node.js and npm (It needs node Version 6) 
 it is the best opportunity to install it with nvm:<br /> https://github.com/creationix/nvm
-- install nvm with terminal
+- install nvm with terminal<br />
 <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
 or Wget:
