@@ -7,12 +7,12 @@ The webapplication (in the folder pages) is controlling sounds from
 Instructions
 --------------
 
-- install cloudspeaker and maincumpter (which is running supercollider and the rhzome server)
+- install cloudspeaker and maincomputer (which is running supercollider and the rhizome server)
 - connect them to a local network (best with lan, also works with wlan)
 - load the supercollider patch (cloud1.scd) in the supercolider IDE
-- look up ip adresses of the cloudspeaker and modify the ~ip variable in supercollider
+- look up ip-adresses of the cloudspeaker and modify the ~ip variable in supercollider
 - start the rhizome server (it needs nodejs Version 6, see intructions below)
-- boot the server in supercollider IDE and Evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-<RETURN>)
+- boot the server in supercollider IDE and evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-<RETURN>)
 - connect to the webpage (running on http://localhost:8000 or http://ip-adress-of -your-computer:8000) with a mobile phone, tablet or computer in the same network
 - also works over internet, if the server is running the framework and the ports which are configurated the config.js are open
 
